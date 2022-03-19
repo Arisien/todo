@@ -17,6 +17,7 @@
 #include <string>
 
 #include "formatting.hpp"
+#include "file.hpp"
 
 /**
  * @brief Command that explains program usage.

@@ -12,6 +12,7 @@
 #include "formatting.cpp"
 #include "commands.cpp"
 #include "manager.cpp"
+#include "file.cpp"
 
 int main (int argc, char** argv) {
     CommandManager manager = CommandManager();
