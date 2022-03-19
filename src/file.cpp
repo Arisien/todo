@@ -9,7 +9,8 @@ std::vector<std::string> task_read () {
 
     int size;
     while (fread(&size, sizeof(int), 1, file)) {
-        char task[size];
+        char task[size+1];
+        task[size] = '\0';
         fread(&task[0], sizeof(char), size, file);
         tasks.push_back(std::string(task));
     }
