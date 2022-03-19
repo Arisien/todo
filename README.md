@@ -6,16 +6,27 @@
 
 Todo lists in the terminal!
 
-## Examples
+## Commands
+
+`$ todo add Finish this program`
+
+```
+todo: task added to list.
+```
 
 `$ todo`
 
 ```
-todo: Future tasks
-[1] Study for exams. (19:45)
-[2] Finish this program. (Tomorrow)
-[3] Update packages. (19.4.22)
+todo: current tasks.
+[1] Finish this program.
 ```
+
+`$ todo clear`
+
+```
+todo: tasks cleared from list.
+```
+
 
 ## Building
 
