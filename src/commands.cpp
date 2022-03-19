@@ -12,7 +12,7 @@
 #include "commands.hpp"
 
 void fn_help (std::vector<std::string> args) {
-    std::cout << "todo: to be implemented." << std::endl; 
+    std::cout << ansi(RED, 1, 1, 0) + "todo:" RESET " to be implemented." << std::endl; 
 }
 
 void fn_list (std::vector<std::string> args) {

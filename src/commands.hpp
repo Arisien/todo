@@ -16,6 +16,8 @@
 #include <vector>
 #include <string>
 
+#include "formatting.hpp"
+
 /**
  * @brief Command that explains program usage.
  * 
